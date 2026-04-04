@@ -1,0 +1,511 @@
+{
+  "business": {
+    "name": "Onyx Chiropractor",
+    "phone": "555-chi-r93",
+    "category": "chiropractor",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "chiropractor-dark-premium",
+      "categoryGroup": "chiropractor",
+      "name": "Dark Premium",
+      "recipeFile": "chiropractor/dark-premium.astro",
+      "colors": {
+        "primary": "#34D399",
+        "primaryDark": "#2aa97a",
+        "primaryLight": "#aeedd6",
+        "secondary": "#2A2A2A",
+        "accent": "#52daa8",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "chiropractor/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Relief Starts Here",
+      "heroSubline": "Onyx Chiropractor provides personalized care for Boulder residents. Our gentle adjustments help you stay active in Colorado's outdoor lifestyle.",
+      "aboutTitle": "Our Boulder Story",
+      "aboutText": [
+        "Founded in 2012, Onyx Chiropractor grew from a small practice serving Boulder athletes to a trusted community resource. Dr. Elias Carter recognized the need for chiropractic care that adapts to our region's active population.",
+        "We take a results-oriented approach focusing on spinal health as the foundation for overall wellness. Each treatment plan addresses both immediate discomfort and long-term mobility goals.",
+        "As proud supporters of local running clubs and youth sports programs, we're committed to keeping Boulder moving. Our team volunteers at trail maintenance days and provides free screenings at community events."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Experience",
+          "description": "12 years serving Boulder's unique needs, from desk workers to elite athletes."
+        },
+        {
+          "title": "Personalized Plans",
+          "description": "Customized treatments based on your lifestyle and health objectives."
+        },
+        {
+          "title": "Evidence-Based Care",
+          "description": "Techniques supported by the latest chiropractic research and outcomes."
+        },
+        {
+          "title": "Preventive Focus",
+          "description": "We teach posture and movement strategies to avoid future issues."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Consultation Today",
+      "ctaSubline": "Let's discuss how chiropractic care can support your active Colorado lifestyle."
+    },
+    "services": [
+      {
+        "slug": "spinal-adjustments",
+        "name": "Spinal Adjustments",
+        "shortDescription": "Precision techniques to improve alignment and relieve pressure on nerves.",
+        "description": "Our spinal adjustment techniques are tailored to Boulder residents' active lifestyles, whether you're recovering from trail running impacts or prolonged sitting at tech jobs. We use controlled, gentle pressure to restore proper joint motion and nervous system function.\n\nFor outdoor enthusiasts, we pay special attention to the lumbar spine which absorbs impact during hiking and cycling. Office workers often benefit from cervical adjustments to counteract forward head posture. Each session includes functional movement assessments to identify areas needing attention.\n\nWe offer diversified, activator, and drop-table techniques based on your comfort level and specific needs. Many patients report immediate relief from headaches, stiffness, and radiating pain after treatment.",
+        "process": [
+          "Step 1: Comprehensive evaluation of spinal mobility and posture analysis",
+          "Step 2: Identification of subluxations through palpation and motion testing",
+          "Step 3: Gentle, targeted adjustments using appropriate technique",
+          "Step 4: Post-adjustment assessment and home care recommendations"
+        ],
+        "benefits": [
+          "Reduced back and neck pain",
+          "Improved nervous system function",
+          "Enhanced range of motion",
+          "Better posture alignment"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get adjusted?",
+            "answer": "Frequency depends on your condition and goals. Acute issues may require 2-3 weekly visits initially, while maintenance care typically involves monthly sessions."
+          },
+          {
+            "question": "Does insurance cover chiropractic adjustments?",
+            "answer": "Most Boulder-area insurance plans include chiropractic benefits. Our office verifies coverage before your first visit."
+          },
+          {
+            "question": "Are adjustments safe during pregnancy?",
+            "answer": "Yes, we use specialized techniques and positioning to ensure comfort and safety for expectant mothers."
+          }
+        ]
+      },
+      {
+        "slug": "sports-recovery",
+        "name": "Sports Recovery",
+        "shortDescription": "Specialized care for athletes dealing with repetitive strain or impact injuries.",
+        "description": "Boulder's intense athletic culture demands chiropractic care that understands sports-specific biomechanics. Our sports recovery program addresses common issues among runners, climbers, and cyclists through targeted adjustments and soft tissue work.\n\nWe frequently treat patellofemoral syndrome in trail runners, shoulder imbalances in climbers, and hip tightness in cyclists. The dry Colorado climate means many athletes experience connective tissue dryness, requiring specialized approaches to joint mobilization.\n\nTreatment plans incorporate functional movement screens to identify compensation patterns. Many local athletes combine our care with physical therapy for comprehensive recovery. We also provide gait analysis for runners and bike fit recommendations for cyclists to prevent recurring issues.",
+        "process": [
+          "Step 1: Sport-specific movement assessment and injury history review",
+          "Step 2: Identification of musculoskeletal imbalances",
+          "Step 3: Adjustments combined with active release techniques",
+          "Step 4: Recovery timeline planning with return-to-activity benchmarks"
+        ],
+        "benefits": [
+          "Faster recovery from sports injuries",
+          "Improved joint mobility for performance",
+          "Reduced muscle compensation patterns",
+          "Prevention of chronic overuse injuries"
+        ],
+        "faq": [
+          {
+            "question": "Can chiropractic help with runner's knee?",
+            "Answer": "Yes, we often address the hip and foot mechanics contributing to patellar tracking issues."
+          },
+          {
+            "question": "Do you work with youth athletes?",
+            "Answer": "Absolutely. We treat many young climbers and soccer players from Boulder's competitive programs."
+          },
+          {
+            "question": "Should I get adjusted before or after big races?",
+            "Answer": "We recommend pre-event alignment 2-3 days prior, with post-event recovery sessions within 48 hours."
+          }
+        ]
+      },
+      {
+        "slug": "posture-correction",
+        "name": "Posture Correction",
+        "shortDescription": "Solutions for tech workers and students combating 'Boulder hunch' from screens.",
+        "description": "Between the tech industry and university culture, many Boulder residents develop posture issues from prolonged screen use. Our posture correction program addresses the forward head position and rounded shoulders we colloquially call 'Boulder hunch'.\n\nWe assess your workspace ergonomics and daily habits contributing to poor posture. Treatment combines spinal adjustments with myofascial release for tight chest muscles and exercises to strengthen weakened upper back muscles. Many patients in Boulder's startup scene benefit from our desk-side posture assessments.\n\nThe program includes progressive exercises adapted to your fitness level. We incorporate yoga-inspired stretches that align well with Boulder's wellness culture. Expect noticeable improvements in breathing capacity and reduced neck tension within weeks of starting care.",
+        "process": [
+          "Step 1: Postural analysis with motion capture technology",
+          "Step 2: Identification of muscular imbalances and joint restrictions",
+          "Step 3: Spinal adjustments combined with targeted stretching",
+          "Step 4: Customized home exercise program with progress tracking"
+        ],
+        "benefits": [
+          "Reduced neck and shoulder tension",
+          "Improved breathing capacity",
+          "Enhanced workstation ergonomics",
+          "Prevention of degenerative spinal changes"
+        ],
+        "faq": [
+          {
+            "question": "How long until I see posture improvements?",
+            "Answer": "Most patients notice changes within 3-4 weeks with consistent exercises and monthly adjustments."
+          },
+          {
+            "question": "Can standing desks help my posture?",
+            "Answer": "While beneficial, standing desks require proper setup. We'll assess your specific workstation configuration."
+          },
+          {
+            "question": "Will posture correction help my headaches?",
+            "Answer": "Yes, many tension headaches stem from forward head posture straining cervical muscles."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-chiropractic",
+        "name": "Pediatric Chiropractic",
+        "shortDescription": "Gentle care for Boulder's active kids and growing families.",
+        "description": "From newborns to teenagers, Boulder's children benefit from our specialized pediatric chiropractic care. We use extremely gentle techniques adapted for developing spines, particularly helpful for young athletes in competitive sports programs.\n\nFor infants, we address common issues like torticollis and breastfeeding difficulties related to birth trauma. School-aged children often benefit from care to improve focus and manage growing pains. Teen athletes receive sports-specific assessments to prevent injuries during growth spurts.\n\nOur approach creates a positive experience for children through distraction techniques and clear explanations. Many Boulder parents appreciate how we incorporate developmental advice alongside adjustments. We coordinate care with pediatricians when needed and provide thorough parental education.",
+        "process": [
+          "Step 1: Child-friendly consultation about symptoms and concerns",
+          "Step 2: Gentle spinal and cranial assessment",
+          "Step 3: Light fingertip adjustments appropriate for age",
+          "Step 4: Parent education and home activity recommendations"
+        ],
+        "benefits": [
+          "Support for proper nervous system development",
+          "Improved sleep and digestion in infants",
+          "Enhanced recovery from sports impacts",
+          "Better postural habits during growth spurts"
+        ],
+        "faq": [
+          {
+            "question": "Is chiropractic safe for babies?",
+            "Answer": "Yes, we use pressure lighter than testing a ripe tomato - about 2 ounces of force."
+          },
+          {
+            "question": "Can it help with colic?",
+            "Answer": "Many parents report reduced crying time after gentle cranial and spinal releases."
+          },
+          {
+            "question": "When should student athletes get checked?",
+            "Answer": "We recommend preseason baseline assessments and monthly maintenance during competitive seasons."
+          }
+        ]
+      },
+      {
+        "slug": "auto-injury-recovery",
+        "name": "Auto Injury Recovery",
+        "shortDescription": "Comprehensive care for whiplash and other collision-related injuries.",
+        "description": "Boulder's busy roads and mountain driving conditions lead to auto injuries requiring specialized care. Our whiplash treatment protocols address the delayed symptoms often appearing days after collisions. We work closely with auto insurance providers to streamline documentation.\n\nTreatment begins with inflammation reduction through gentle mobilization and cold laser therapy. As tissues heal, we progress to corrective adjustments and rehabilitative exercises. Many patients commuting on Highway 36 benefit from our ergonomic driving position assessments during recovery.\n\nWe document range of motion improvements to support insurance claims and coordinate with massage therapists for comprehensive soft tissue healing. The dry Colorado climate means we pay special attention to preventing scar tissue formation during recovery.",
+        "process": [
+          "Step 1: Detailed accident history and baseline injury assessment",
+          "Step 2: Inflammation reduction through gentle modalities",
+          "Step 3: Progressive spinal rehabilitation",
+          "Step 4: Functional recovery benchmarks for return to normal activities"
+        ],
+        "benefits": [
+          "Reduced neck stiffness and headaches",
+          "Prevention of chronic pain development",
+          "Improved insurance claim documentation",
+          "Faster return to work and driving"
+        ],
+        "faq": [
+          {
+            "question": "How soon after an accident should I be seen?",
+            "Answer": "Ideally within 72 hours, even if you don't yet feel symptoms."
+          },
+          {
+            "question": "Will treatment help my low back pain from the seatbelt?",
+            "Answer": "Yes, we address the entire kinetic chain affected by collision forces."
+          },
+          {
+            "question": "Do I need a referral from my MD?",
+            "Answer": "Colorado law allows direct access to chiropractors for auto injuries."
+          }
+        ]
+      },
+      {
+        "slug": "senior-wellness",
+        "name": "Senior Wellness",
+        "shortDescription": "Gentle techniques to maintain mobility and independence.",
+        "description": "Boulder's active senior population benefits from our specialized geriatric chiropractic approach. We help maintain spinal health to support gardening, hiking, and other activities local retirees enjoy. Techniques are modified for osteoporosis and arthritis common in mountain communities.\n\nTreatment focuses on preserving range of motion in weight-bearing joints affected by Colorado's variable terrain. Many patients report improved balance and reduced reliance on pain medications after starting care. We coordinate with local physical therapists for comprehensive fall prevention programs.\n\nThe dry climate means we emphasize joint lubrication strategies and hydration advice. Our office accommodates mobility devices and provides seated intake options. We frequently treat patients from local retirement communities seeking to maintain their active lifestyles.",
+        "process": [
+          "Step 1: Comprehensive mobility and balance assessment",
+          "Step 2: Review of medical history and current medications",
+          "Step 3: Ultra-gentle adjustments with specialized equipment",
+          "Step 4: Home safety and exercise recommendations"
+        ],
+        "benefits": [
+          "Reduced joint stiffness and arthritis discomfort",
+          "Improved posture and breathing capacity",
+          "Enhanced balance and coordination",
+          "Maintained independence in daily activities"
+        ],
+        "faq": [
+          {
+            "question": "Is chiropractic safe with osteoporosis?",
+            "Answer": "Yes, we use specialized low-force techniques and avoid certain maneuvers."
+          },
+          {
+            "question": "Can it help with neuropathy symptoms?",
+            "Answer": "While not curing neuropathy, adjustments may improve nervous system function."
+          },
+          {
+            "question": "Do you accept Medicare?",
+            "Answer": "We're Medicare providers and handle all necessary documentation."
+          }
+        ]
+      },
+      {
+        "slug": "prenatal-care",
+        "name": "Prenatal Care",
+        "shortDescription": "Specialized support for Boulder moms-to-be.",
+        "description": "Pregnancy creates significant biomechanical changes that our prenatal chiropractic care addresses. Boulder's active expectant mothers benefit from techniques that accommodate changing centers of gravity during hiking, yoga, and other local fitness routines.\n\nWe use specialized pregnancy pillows for comfortable positioning during adjustments. Care focuses on pelvic alignment to support optimal fetal positioning and prepare for labor. Many patients report reduced sciatic pain and improved sleep after treatment.\n\nThe program includes exercises to maintain strength while protecting loosened ligaments. We coordinate with local doulas and midwives when desired. Postpartum care helps new mothers recover from delivery strains while adjusting to baby care postures.",
+        "process": [
+          "Step 1: Pregnancy history review and comfort assessment",
+          "Step 2: Gentle pelvic and spinal evaluations",
+          "Step 3: Specialized side-lying adjustment techniques",
+          "Step 4: Prenatal exercise and labor preparation guidance"
+        ],
+        "benefits": [
+          "Reduced lower back and pelvic pain",
+          "Improved nervous system function for mom and baby",
+          "Better sleep quality during pregnancy",
+          "Support for optimal fetal positioning"
+        ],
+        "faq": [
+          {
+            "question": "When should I start prenatal chiropractic care?",
+            "Answer": "Any trimester is beneficial, with many starting in the second trimester as changes accelerate."
+          },
+          {
+            "question": "Can it help with breech positioning?",
+            "Answer": "Specific techniques may create favorable conditions for babies to turn, especially when combined with other methods."
+          },
+          {
+            "question": "Is it safe after previous back surgery?",
+            "Answer": "We modify techniques based on surgical history - just inform us during consultation."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikaela R.",
+        "rating": 5,
+        "service": "Sports Recovery",
+        "text": "After straining my shoulder bouldering in Eldorado Canyon, Dr. Carter's adjustments combined with ART got me back on the rocks in half the expected time. The team understands climbers' unique needs better than any practice I've visited.",
+        "date": "2025-03-14"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Auto Injury Recovery",
+        "text": "When a rear-end collision on Table Mesa left me with terrible whiplash, Onyx Chiropractor's detailed documentation helped my insurance claim while their treatment actually fixed the problem. Six months later, I'm hiking Bear Peak without neck stiffness.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Priya N.",
+        "rating": 5,
+        "service": "Posture Correction",
+        "text": "As a software engineer at a Pearl Street startup, my 'tech neck' was causing daily headaches. The posture program here changed my workstation setup and gave me simple exercises that eliminated pain within weeks. Now my whole team comes in for ergonomic assessments.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Carlos D.",
+        "rating": 5,
+        "service": "Senior Wellness",
+        "text": "At 72, I was ready to give up gardening until these gentle adjustments improved my hip mobility. The team understands active Boulder seniors - they even adjusted their schedule so I could make my weekly hiking group.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Leah and Mark S.",
+        "rating": 5,
+        "service": "Pediatric Chiropractic",
+        "text": "Our newborn was having trouble breastfeeding after a difficult delivery. One incredibly gentle cranial adjustment made all the difference - we're so grateful for their expertise with infants. Now our toddler sees them for checkups too.",
+        "date": "2024-09-30"
+      },
+      {
+        "name": "Samantha K.",
+        "rating": 5,
+        "service": "Prenatal Care",
+        "text": "During my third trimester, the Webster technique helped my breech baby turn naturally. The side-lying adjustments relieved my sciatic pain so I could keep teaching yoga until my due date. Postpartum care got me back to trail running safely.",
+        "date": "2024-08-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boulder Chiropractor | Onyx Chiropractic Care",
+        "description": "Boulder's trusted chiropractic clinic since 2012. Personalized care for athletes, families, and professionals in Colorado's active community."
+      },
+      "about": {
+        "title": "Our Practice | Onyx Chiropractor Boulder",
+        "description": "Learn about our Boulder roots and patient-centered approach to chiropractic wellness in Colorado's active community."
+      },
+      "services": {
+        "title": "Chiropractic Services | Onyx Boulder CO",
+        "description": "Specialized chiropractic treatments for Boulder residents including sports recovery, prenatal care, and auto injury rehabilitation."
+      },
+      "contact": {
+        "title": "Contact Our Boulder Chiropractic Clinic",
+        "description": "Schedule an appointment at our Boulder chiropractic office. Serving Colorado's Front Range with compassionate, effective care."
+      },
+      "reviews": {
+        "title": "Patient Experiences | Onyx Chiropractor",
+        "description": "Read authentic reviews from Boulder residents about their chiropractic care experiences at our Colorado practice."
+      },
+      "service-areas": {
+        "title": "Communities We Serve | Boulder Chiropractor",
+        "description": "Onyx Chiropractor provides care throughout Boulder County and Colorado's Front Range communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97"
+    },
+    "serviceAreas": [
+      {
+        "city": "Boulder",
+        "slug": "boulder-co",
+        "state": "CO",
+        "content": "Onyx Chiropractor is proud to serve the vibrant community of Boulder, CO, where health and wellness are a way of life. Our chiropractic care is tailored to meet the needs of active Boulder residents, from outdoor enthusiasts to busy professionals. Whether you're recovering from a hiking injury or seeking relief from desk-related back pain, we provide personalized adjustments to keep you moving comfortably.\n\nBoulder's commitment to holistic health aligns perfectly with our patient-centered approach. We offer spinal adjustments, corrective exercises, and lifestyle advice to help you achieve optimal wellness. Located conveniently in Boulder, our clinic is easily accessible for locals seeking non-invasive pain relief and improved mobility.",
+        "localContext": "Boulder is known for its outdoor recreation, tech industry, and emphasis on natural health solutions.",
+        "nearbyAreas": [
+          "Louisville",
+          "Superior",
+          "Niwot"
+        ]
+      },
+      {
+        "city": "Louisville",
+        "slug": "louisville-co",
+        "state": "CO",
+        "content": "Onyx Chiropractor provides expert chiropractic care to the families and professionals of Louisville, CO. Our gentle techniques are ideal for patients of all ages, from children to seniors. Many Louisville residents visit us for relief from back pain, neck discomfort, and sports injuries while maintaining their active Colorado lifestyles.\n\nWe understand the unique needs of Louisville's community, offering flexible scheduling for busy parents and working professionals. Our clinic specializes in treating common issues like poor posture from desk work and repetitive strain injuries. Let us help you stay pain-free while enjoying all that Louisville has to offer.",
+        "localContext": "Louisville combines small-town charm with excellent schools and a thriving downtown district.",
+        "nearbyAreas": []
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "spinal-adjustments": "/images/service-spinal-adjustments.webp",
+      "sports-recovery": "/images/service-sports-recovery.webp",
+      "posture-correction": "/images/service-posture-correction.webp",
+      "pediatric-chiropractic": "/images/service-pediatric-chiropractic.webp",
+      "auto-injury-recovery": "/images/service-auto-injury-recovery.webp",
+      "senior-wellness": "/images/service-senior-wellness.webp",
+      "prenatal-care": "/images/service-prenatal-care.webp"
+    },
+    "servicesResponsive": {
+      "spinal-adjustments": {
+        "src": "/images/service-spinal-adjustments.webp",
+        "srcset": "/images/service-spinal-adjustments-400w.webp 400w, /images/service-spinal-adjustments-800w.webp 800w, /images/service-spinal-adjustments-1200w.webp 1200w, /images/service-spinal-adjustments.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sports-recovery": {
+        "src": "/images/service-sports-recovery.webp",
+        "srcset": "/images/service-sports-recovery-400w.webp 400w, /images/service-sports-recovery-800w.webp 800w, /images/service-sports-recovery-1200w.webp 1200w, /images/service-sports-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "posture-correction": {
+        "src": "/images/service-posture-correction.webp",
+        "srcset": "/images/service-posture-correction-400w.webp 400w, /images/service-posture-correction-800w.webp 800w, /images/service-posture-correction-1200w.webp 1200w, /images/service-posture-correction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-chiropractic": {
+        "src": "/images/service-pediatric-chiropractic.webp",
+        "srcset": "/images/service-pediatric-chiropractic-400w.webp 400w, /images/service-pediatric-chiropractic-800w.webp 800w, /images/service-pediatric-chiropractic-1200w.webp 1200w, /images/service-pediatric-chiropractic.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "auto-injury-recovery": {
+        "src": "/images/service-auto-injury-recovery.webp",
+        "srcset": "/images/service-auto-injury-recovery-400w.webp 400w, /images/service-auto-injury-recovery-800w.webp 800w, /images/service-auto-injury-recovery-1200w.webp 1200w, /images/service-auto-injury-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "senior-wellness": {
+        "src": "/images/service-senior-wellness.webp",
+        "srcset": "/images/service-senior-wellness-400w.webp 400w, /images/service-senior-wellness-800w.webp 800w, /images/service-senior-wellness-1200w.webp 1200w, /images/service-senior-wellness.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "prenatal-care": {
+        "src": "/images/service-prenatal-care.webp",
+        "srcset": "/images/service-prenatal-care-400w.webp 400w, /images/service-prenatal-care-800w.webp 800w, /images/service-prenatal-care-1200w.webp 1200w, /images/service-prenatal-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
